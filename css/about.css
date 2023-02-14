@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body {
+    background: linear-gradient(45deg, #180019, #04051B);
+}
+header {
+    display: flex;
+    justify-content: center;
+    gap: 24%;
+    margin: 2%;
+
+
+}
+
+#Devlogo {
+    width: 80px;
+    position: absolute;
+    left: 12%;
+
+}
+
+nav {
+    display: block;
+    margin-top: 24px;
+    position: relative;
+    left: 25%;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    left: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding-right: 32px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+ul li a:hover{
+color: #9EFF01;
+
+}
+ ul li a:hover::after {
+    content: '';
+    background-color: #9EFF01;
+    position: absolute;
+    width: 25%;
+    height: 0.5px;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding-top: 2px;
+    z-index: -1;
+    font-weight: bold;
+    animation-name: under;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-fill-mode: both;
+}
+
+@keyframes under {
+    100% {
+        transform: scaleX(0.8);
+        height: 0.5px;
+    }
+
+    50% {
+        transform: scaleX(1.5);
+        height: 0.5px;
+    }
+
+    0% {
+        transform: scaleX(0);
+        height: 0.5px;
+    }
+}
+    /* --------- about styles-------- */
+#about{
+    
+    height: 100vh;
+}
+.looing{
+    color: white;
+    display: flex;
+    justify-content: center;
+   font-size: 62px;
+    align-items: center;
+    font-family: 'Space Mono', monospace;
+}
+#look{
+    font-family: 'Tangerine';
+    font-size: 72px;
+    font-weight: 400;
+    padding-right: 12px;
+}
+#my{
+    font-family: 'Tangerine';
+    font-size: 82px;
+    font-weight: 400;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#three-work{
+    height: 100vh;
+}
