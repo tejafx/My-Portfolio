@@ -348,6 +348,7 @@ span {
     width: 26em;
     position: relative;
     right: 14em;
+    font-family: 'Poppins', sans-serif;
 }
 .ux-3d{
     background-color: #9EFF01;
@@ -355,13 +356,16 @@ span {
     color: #04051B;
     width: 200px;
     height: 200px;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .txt{
-    font-family: 'Space Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 25px;
     padding-top: 20%;
 }
 h3{
     padding: 12px;
+    font-family: 'Poppins', sans-serif;
 }
